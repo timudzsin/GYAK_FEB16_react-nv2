@@ -1,0 +1,11 @@
+.Termek {
+	border: 2px solid white;
+	border-radius: 7px;
+	padding: 25px;
+    background-color: rgb(44, 44, 44);
+}
+
+.Termek-title {
+    font-size: 30px;
+    
+}

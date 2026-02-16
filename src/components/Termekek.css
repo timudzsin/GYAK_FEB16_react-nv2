@@ -1,0 +1,7 @@
+.Termekek {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 40px;
+	gap: 40px;
+	justify-content: center;
+}
