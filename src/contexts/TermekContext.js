@@ -24,7 +24,7 @@ export const TermekProvider = ({ children }) => {
 
 	return (
 		<TermekContext.Provider
-			value={{ termekList, termekKosarba, kosarLista }}
+			value={{ termekList, kosarLista, termekKosarba }}
 		>
 			{children}
 		</TermekContext.Provider>

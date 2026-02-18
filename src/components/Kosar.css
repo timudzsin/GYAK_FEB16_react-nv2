@@ -1,6 +1,28 @@
 .Kosar {
-	border: 2px solid white;
-	border-radius: 7px;
-	padding: 25px;
-	background-color: rgb(44, 44, 44);
+	background: linear-gradient(0deg, hsl(0, 0%, 3%), hsl(0, 0%, 8%));
+	border-radius: 20px;
+	border: solid 1.5px hsl(0, 0%, 30%);
+	border-top: solid 1.5px hsl(0, 0%, 60%);
+}
+
+.Kosar h2 {
+    color: hsl(0, 0%, 95%);
+}
+
+.Kosar h3 {
+	background-color: hsl(0, 0%, 10%);
+	border-radius: 20px;
+	border: solid 1.5px hsl(0, 0%, 30%);
+	border-top: solid 1.5px hsl(0, 0%, 60%);
+    margin: 0px;
+    padding: 10px;
+    color: hsl(0, 0%, 95%);
+}
+
+.Kosar-tartalom {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	gap: 10px;
+	justify-content: center;
 }

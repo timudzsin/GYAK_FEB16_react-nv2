@@ -14,7 +14,7 @@ export default function Termek(props) {
 			<h3 className="Termek-title">{props.data.cim}</h3>
 			<p className="Termek-text">{props.data.leiras}</p>
 			<button className="Termek-button" onClick={onClick}>
-				kiválaszt
+				kosárba
 			</button>
 		</div>
 	);
